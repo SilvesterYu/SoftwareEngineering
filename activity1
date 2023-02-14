@@ -1,20 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T07:51:06.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.7.4" etag="BQd6BPvBrhcRTmaL8gYq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-14T09:59:13.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.7.4" etag="Y-JxaZib4PfZ4wD8FtR6" type="github">
   <diagram id="fMaYEcAz8c87uUqiGMGo" name="Page-1">
-    <mxGraphModel dx="633" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="i6tTDx2-a6ULYMGnFe3r-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="360" height="510" as="geometry" />
+          <mxGeometry x="140" y="40" width="460" height="620" as="geometry" />
         </mxCell>
         <mxCell id="i6tTDx2-a6ULYMGnFe3r-2" value="Real estate game" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="150" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="i6tTDx2-a6ULYMGnFe3r-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-10" target="i6tTDx2-a6ULYMGnFe3r-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="340" as="sourcePoint" />
-            <mxPoint x="660" y="340" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="305" y="40" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i6tTDx2-a6ULYMGnFe3r-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="645" y="300" width="45" height="80" as="geometry" />
@@ -22,35 +16,81 @@
         <mxCell id="i6tTDx2-a6ULYMGnFe3r-9" value="players" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="637.5" y="402" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i6tTDx2-a6ULYMGnFe3r-10" value="roll dice" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="170" width="100" height="50" as="geometry" />
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-12" value="pass GO cell" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="i6tTDx2-a6ULYMGnFe3r-12" value="get paid / pay" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="267" width="100" height="50" as="geometry" />
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-29" value="extend&lt;br&gt;condition: land&lt;br&gt;on go to jail&lt;br&gt;cell" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-19" target="i6tTDx2-a6ULYMGnFe3r-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i6tTDx2-a6ULYMGnFe3r-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="225" as="sourcePoint" />
-            <mxPoint x="655" y="340.21739130434787" as="targetPoint" />
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-43" value="extend&lt;br&gt;condition: pass or land&lt;br&gt;on the GO cell" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-12" target="i6tTDx2-a6ULYMGnFe3r-19">
+          <mxGeometry x="-0.2999" y="10" relative="1" as="geometry">
+            <mxPoint x="450" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="320" />
+              <mxPoint x="460" y="320" />
+            </Array>
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i6tTDx2-a6ULYMGnFe3r-14" value="purchase" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="330" width="100" height="50" as="geometry" />
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-50" value="include" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-19" target="i6tTDx2-a6ULYMGnFe3r-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i6tTDx2-a6ULYMGnFe3r-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="295" as="sourcePoint" />
-            <mxPoint x="665" y="350.21739130434787" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="i6tTDx2-a6ULYMGnFe3r-19" value="move" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="170" width="100" height="50" as="geometry" />
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-19" value="move" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EDFFBA;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i6tTDx2-a6ULYMGnFe3r-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="225.0000000000001" as="sourcePoint" />
             <mxPoint x="655" y="340.21739130434776" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-22" target="i6tTDx2-a6ULYMGnFe3r-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-27" value="extend&lt;br&gt;condition: draw a&amp;nbsp;&lt;br&gt;jail card" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i6tTDx2-a6ULYMGnFe3r-26">
+          <mxGeometry x="0.2051" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-22" target="i6tTDx2-a6ULYMGnFe3r-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-45" value="extend&lt;br&gt;condition: draw a&lt;br&gt;move card" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i6tTDx2-a6ULYMGnFe3r-44">
+          <mxGeometry x="-0.1" y="-2" relative="1" as="geometry">
+            <mxPoint x="-4" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-22" value="draw a card" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-23" value="extend&lt;br&gt;condition: lands on card cell" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-19" target="i6tTDx2-a6ULYMGnFe3r-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="320" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="i6tTDx2-a6ULYMGnFe3r-25" target="i6tTDx2-a6ULYMGnFe3r-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="390" />
+              <mxPoint x="410" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-35" value="extend&lt;br&gt;condition: pay 50 dollars&lt;br&gt;and get out" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i6tTDx2-a6ULYMGnFe3r-34">
+          <mxGeometry x="-0.2317" y="-2" relative="1" as="geometry">
+            <mxPoint x="27" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-25" value="go to jail" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i6tTDx2-a6ULYMGnFe3r-46" value="roll dice" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EDFFBA;" vertex="1" parent="1">
+          <mxGeometry x="360" y="432" width="100" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
